@@ -41,11 +41,11 @@
 ## Reading Exams
 ### Security 
 2-3 days
-Cluster 1 (Υλη τυπισσα: 2-6)
+- Cluster 1 (Υλη τυπισσα: 2-6)
 
-Cluster 2 (Υλη τυπου: ολο το υπολοιπο)
+- Cluster 2 (Υλη τυπου: ολο το υπολοιπο)
 
-λυμενα και προσοχη στου τελευταιου φροντ
+- λυμενα και προσοχη στου τελευταιου φροντ
 
 ### SQL
 5 days
@@ -53,22 +53,22 @@ Cluster 2 (Υλη τυπου: ολο το υπολοιπο)
 ### Καρωνη
 5-6 days
 
-Cluster 1 ()
-Cluster 2 ()
-Cluster 3 ()
+- Cluster 1 ()
+- Cluster 2 ()
+- Cluster 3 ()
 
 
 ### ML
 
 
 ### Προτυπα
-Cluster 1 (Υλη: 1,2,3)
+- Cluster 1 (Υλη: 1,2,3)
 
-Cluster 2 (Υλη: 4,5)  $ 
+- Cluster 2 (Υλη: 4,5)  $ 
 
-Cluster 3 (Υλη: 6,7) $
+- Cluster 3 (Υλη: 6,7) $
 
-Cluster 4 (Υλη: 8,9)
+- Cluster 4 (Υλη: 8,9)
 
-Cluster 5 (Υλη: 10,11)
+- Cluster 5 (Υλη: 10,11)
 
