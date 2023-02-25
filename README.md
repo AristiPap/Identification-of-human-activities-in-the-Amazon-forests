@@ -15,3 +15,8 @@ We employed different approaches with varying degrees of success in our endeavor
 
 - [`Model Exploration`](https://github.com/AristiPap/Amazon_Rainforest/blob/main/Model%20Exploration.ipynb) wherein we explore different online classification approaches such as the Passive-Aggressive Classifier approach as well as different dimensionality reduction techniques such as Incremental PCA, Mini-Batch K-Means as well as Online Dictionary Learning. We experiment with both the raw image data as well as their respective Histogram Of Gradients (HOG) features.
 - [`Transfer Learning`](https://github.com/AristiPap/Amazon_Rainforest/blob/main/Transfer%20Learning.ipynb) wherein we employ an 18-layer deep ResNet architecture in order to efficiently model the data. We experiment with different per-class thresholds on the validation set and evaluate our model on the test data set.
+
+## Contributors
+- [Aristi Papastavrou](https://github.com/AristiPap)
+- [Vassilis Sioros](https://github.com/billsioros)
+- [Marios Christopoulos](https://github.com/hank-octopus98)
