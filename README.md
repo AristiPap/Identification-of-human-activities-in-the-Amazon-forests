@@ -1,23 +1,17 @@
-# Tbt
+![Identification of human activities in the Amazon forests](https://raw.githubusercontent.com/planetlabs/planet-amazon-deforestation/master/img/chipdesc.jpg)
 
-## Installing packages
 
-To install all the required packages run:
+# Identification of human activities in the Amazon forests
 
-```shell
-pip install -r requirements.txt
-```
+In order to tackle the global challenge of rapid deforestation, we use satellite imagery to understand land use patterns and atmospheric conditions. In this project, we apply machine learning algorithms and techniques for performing automated multi-label classification of satellite images of the Amazon basin using a dataset provided by Planet Labs, which is hosting a Kaggle competition for this task.
 
-> Not all dependencies listed are required. We should clean everything up!
+Multi-output satellite image classification refers to the task of classifying different features in satellite images into multiple categories simultaneously. Instead of predicting a single output class for an image, a multi-output classification model can predict several output classes, which can include features such as land cover, vegetation, and water bodies. This type of classification requires a model that can handle multiple outputs and incorporate dependencies between them. The model needs to be trained on a labeled dataset, which includes multiple annotated classes for each input image. Once trained, the model can be used to classify new satellite images into multiple output classes simultaneously. This can be particularly useful for applications such as environmental monitoring, urban planning, and disaster response.
 
-Adding a new package is down via the utility script `add_dependency.py` instead of `pip`. This is done for book-keeping reasons. For example, installing `numpy` can be achieved as such:
+![Class labels](https://raw.githubusercontent.com/planetlabs/planet-amazon-deforestation/master/img/chips.jpg)
 
-```shell
-./add_dependency.py numpy
-```
+## Methodology
 
-> Make sure you make the script executable via `chmod +x add_dependency.py`) (or simply run it via `python`).
+We employed different approaches with varying degrees of success in our endeavors to tackle the problem:
 
-## External Links:
-
-- [Planet Labs](https://github.com/planetlabs/planet-amazon-deforestation)
+- [`Model Exploration`](./Model\ Exploration.ipynb) wherein we explore different online classification approaches such as the `Passive-Aggressive Classifier` approach as well as different dimensionality reduction techniques such as `Incremental PCA`, `Mini-Batch K-Means` as well as `Online Dictionary Learning`. We experiment with both the raw image data as well as their respective Histogram Of Gradients (HOG) features.
+- - [`Transfer Learning`](./Model\ Exploration.ipynb) wherein we employ an 18-layer deep ResNet architecture in order to efficiently model the data. We experiment with different per-class thresholds on the validation set and evaluate our model on the test data set.
